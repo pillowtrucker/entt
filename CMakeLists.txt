@@ -1,7 +1,7 @@
 # EnTT
 
 cmake_minimum_required(VERSION 3.15.7)
-
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # Read project version
 
 set(ENTT_VERSION_REGEX "#define ENTT_VERSION_.*[ \t]+(.+)")
